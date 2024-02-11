@@ -1,0 +1,23 @@
+.navbar {
+  position: sticky;
+  top: 30px;
+  display: flex;
+  flex-flow: column nowrap; /* расположение элементов в колонку, nowrap - отмена переносов */
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #16182d;
+  border: 1px solid #23243e;
+}
+.navbar__link {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  line-height: 27px;
+  transition: color 200ms ease-in-out; /* плавная анимация смены цвета */
+}
+.navbar__link:last-child {
+  margin-bottom: 0; /* отключение margin у последнего элемента списка */
+}
+.navbar__link:hover {
+  color: #f73164;
+}

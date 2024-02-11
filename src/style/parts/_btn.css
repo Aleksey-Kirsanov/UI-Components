@@ -1,0 +1,18 @@
+.btn {
+  display: inline-block;
+  font-weight: 700;
+  line-height: 27px;
+  padding: 7px 34px;
+  background-color: #001aff;
+  color: #fff;
+  border-radius: 10px;
+  margin-right: 20px;
+  text-align: center;
+}
+.btn:last-child {
+  margin-right: 0;
+}
+
+.btn--rounded {
+  border-radius: 100px;
+}

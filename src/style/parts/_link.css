@@ -1,0 +1,22 @@
+.link {
+  font-weight: 700;
+  line-height: 27px;
+  color: #fff;
+  text-decoration: underline; /* подчеркивание */
+  cursor: default;
+  transition: color 150ms ease-in-out;
+}
+.link:hover {
+  color: #f73164;
+  text-decoration: none;
+}
+.tooltips:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 17px;
+  width: 10px;
+  height: 10px;
+  background-color: #16182d;
+  transform: rotate(45deg);
+}
